@@ -1,0 +1,5 @@
+setcpm(25) 
+$s: s("<bd rim [[rim*2@0.5] bd sd ~]>")
+$s: s("hh*4").gain("[.25 1]*2")
+$s: note("<[b, d, f#] [g, b, d] [d, f#, a] [a, c#, e]>").lpf("<500 800>").sound("piano")
+$s: note("[b2 g2 d2 a2][d2@2 a2@2]").sound("gm_acoustic_bass").slow(4)
